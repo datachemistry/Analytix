@@ -1,3 +1,5 @@
+
+
 class Curva:
         
     def __init__(self, pontos, lim_inf,lim_sup, unid):
@@ -16,17 +18,10 @@ class Curva:
             list.append(self.lim_inf + (self.incremento * i))
         return list
    
-nitrato_sodio = Curva(6,10,60,"ppm")
-
-print(nitrato_sodio)
-print(nitrato_sodio.curva_calib())
-
-
-poliestireno = Curva(5,200,1000,"mol/l")
-print(poliestireno)
-print(poliestireno.curva_calib())
-
-
+# Exemplo 
+#glicose = Curva(10,1,10,"g/ml")
+#print(glicose)
+#print(glicose.curva_calib())
 
 
 
